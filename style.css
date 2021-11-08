@@ -1,0 +1,154 @@
+html,
+body {
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(0, 255, 128) , yellow);
+    
+}
+
+#Solution{
+  text-align: center;
+  font-weight: 700;
+  font-style: italic;
+ 
+}
+
+#mynetwork {
+    width: 50%;
+    height: 100%;
+    border: 1px solid lightgray;
+}
+
+#container2 {
+    width: 50%;
+    height: 100%;
+    border: 1px solid rgb(124, 112, 112);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+#mynetwork2{
+    width: 100%;
+    height: 100%;
+}
+
+#container{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+
+    border: 10px solid rgb(24, 184, 224);
+}
+
+#generate-graph{
+    margin:auto;
+    display:block;
+
+   /* padding: 6px 9px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: #87eee9;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(121 121 121);*/
+
+}
+
+.button1 {
+    background-color:  #87eee9; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    border-radius: 15px;
+    box-shadow: 0 10px rgb(121 121 121);
+    font-weight: bolder;
+    border: none;
+    padding: 6px 9px;
+    cursor: pointer;
+  }
+  
+  .button1:hover {
+    background-color: #ec3434;
+    color: white;
+    zoom: 150%;
+  }
+  
+  .button2 {
+    background-color:  #87eee9; 
+    color: black; 
+    border: 2px solid #008CBA;
+    border-radius: 15px;
+    box-shadow: 0 10px rgb(121 121 121);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 0px 21px;
+  }
+  
+  .button2:hover {
+    background-color:rgb(17, 129, 17);
+    color: white;
+    zoom: 150%;
+  }
+
+
+#solve{
+    margin:auto;
+    display:block;
+    
+   /* padding: 0px 21px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: #87eee9;
+    border: none;
+  
+   */
+
+}
+
+
+#sushant {
+    color: black;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+/* socail */
+.social{
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+/*
+.social h2{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  font-weight: bold; 
+}*/
+
+#thanks{
+  color:black;
+  text-align : center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: small;
+  font-weight: bold;
+}
